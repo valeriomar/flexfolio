@@ -1,0 +1,187 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:wght@100..900&display=swap');
+@import "tailwindcss/preflight" layer(base);
+@import "tailwindcss" layer(components);
+@import "tailwindcss" layer(utilities);
+
+:root {
+  transition: 
+    --primary 1s ease-in-out,
+    --bg 1s ease-in-out,
+    --text 1s ease-in-out;
+}
+
+
+:root {
+  --primary: #f97316;
+  --primary-rgb: 249, 115, 22;
+  --bg-rgb: 255, 255, 255;
+  --text: #111111;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: "PoppinsVariable", sans-serif;
+}
+
+.color-important{
+  color: black !important;
+}
+
+html {
+  scroll-behavior: smooth;
+  
+}
+
+html, body, h1, a, div {
+  transition: color 1s ease-in-out;
+
+}
+
+html, body, #__next {
+  height: 100%;
+  margin: 0;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  display: inline-block;
+  animation: marquee 150s linear infinite;
+}
+
+.section-titles {
+  font-size: 5em;
+}
+
+.shape-image {
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 50%;
+    shape-outside: circle(50%);
+    float: left;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    display: block; /* antes no estaba */
+    -webkit-shape-outside: circle(50%); /* necesario para Safari */
+    -webkit-clip-path: circle(50%); /* mejora el recorte en Safari */
+    clip-path: circle(50%);
+}
+
+.hero-name-animated {
+  font-size: 22rem;
+}
+
+.centered-toast {
+  position: fixed !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  z-index: 9999;
+  max-height: 80px;
+}
+
+.hero-name-animated-wrapper {
+  position: absolute;
+  bottom: -40%
+}
+
+@media screen and (max-width: 768px) {
+  .section-titles {
+    font-size: 3em;
+  }
+  .shape-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    shape-outside: circle(50%);
+    float: left;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    display: block; /* antes no estaba */
+    -webkit-shape-outside: circle(50%); /* necesario para Safari */
+    -webkit-clip-path: circle(50%); /* mejora el recorte en Safari */
+    clip-path: circle(50%);
+  }
+  .hero-name-animated {
+    font-size: 11em;
+    position: relative;
+    bottom: 260px;
+  }
+
+}
+
+@media screen and (min-device-width: 1024px) and (orientation: landscape) {
+  .hero-name-animated {
+    font-size: 23rem;
+  }
+  .hero-name-animated-wrapper {
+  position: absolute;
+  top: -400;
+  z-index: 9999;
+  }
+  .hero-name-animated {
+    font-size: 11em;
+    position: relative;
+    bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 916px) and (orientation: landscape) {
+  .hero-name-animated {
+    font-size: 4.8rem !important; 
+  }
+  .shape-image {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    shape-outside: circle(50%);
+    float: left;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    display: block; /* antes no estaba */
+    -webkit-shape-outside: circle(50%); /* necesario para Safari */
+    -webkit-clip-path: circle(50%); /* mejora el recorte en Safari */
+    clip-path: circle(50%);
+  }
+  .hero-name-animated-wrapper {
+    display: none;
+  position: absolute;
+  bottom: -35%;
+  }
+  .landscape-mobile {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (min-width: 1020px) and (max-width: 1200px) and (orientation: landscape) {
+  .hero-name-animated {
+    font-size: 18rem; 
+  }
+  .shape-image {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    shape-outside: circle(50%);
+    float: left;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    display: block; /* antes no estaba */
+    -webkit-shape-outside: circle(50%); /* necesario para Safari */
+    -webkit-clip-path: circle(50%); /* mejora el recorte en Safari */
+    clip-path: circle(50%);
+  }
+}
+
