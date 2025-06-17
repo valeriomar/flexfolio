@@ -10,6 +10,7 @@ import themes from "@/data/themes.json";
 import "@fontsource/poppins/400.css";
 import "@fontsource/poppins/600.css";
 import "@fontsource/poppins/700.css";
+import Link from "next/link";
 
 export default function Hero() {
   const { themeKey } = useTheme();
@@ -84,14 +85,16 @@ export default function Hero() {
           >
             {title}
           </h1>
+        <Link href="#work" scroll={true}>
           <Button
             style={{ marginTop: 15, color: textColor, fontStyle: "italic" }}
             variant="primary"
             size="lg"
-            className="gap-2 self-start"
+            className="gap-2 self-start focus:outline-none focus:ring-0"
           >
             See my works <ArrowRight className="h-4 w-4" />
           </Button>
+        </Link>
         </div>
         <div className="hero-name-animated-wrapper inset-0 flex items-end justify-center pointer-events-none select-none">
           <div
