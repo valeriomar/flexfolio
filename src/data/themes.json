@@ -4,7 +4,7 @@
   "primary": "#e11d48",
   "background": "#fff0f5",
   "text": "#4c0519",
-  "subtext": "#db2777",
+  "subtext": "#4c0519",
   "gradient": "conic-gradient(from 220deg at 50% 50%, #fff0f5, #f9a8d4, #f472b6, #e11d48, #fff0f5)"
 },
   "opalGlow": {
@@ -12,7 +12,7 @@
     "primary": "#38bdf8",
     "background": "#e0f2fe",
     "text": "#083344",
-    "subtext": "#0ea5e9",
+    "subtext": "#083344",
     "gradient": "conic-gradient(from 90deg at 50% -5%, #bae6fd, #fcd5ce, #fef9c3, #ddd6fe, #bae6fd)"
   },
   "twilightAura": {
@@ -20,7 +20,7 @@
     "primary": "#9333ea",
     "background": "#1e1b4b",
     "text": "#f3e8ff",
-    "subtext": "#d8b4fe",
+    "subtext": "#f3e8ff",
     "gradient": "conic-gradient(from 0deg at 50% -10%, #312e81, #1e1b4b, #4c1d95, #9333ea, #312e81)"
   },
   "cottonField": {
@@ -28,7 +28,7 @@
     "primary": "#8b5cf6",
     "background": "#f5f3ff",
     "text": "#3b0764",
-    "subtext": "#6d28d9",
+    "subtext": "#3b0764",
     "gradient": "conic-gradient(from 45deg at 50% 00%, #f3e8ff, #e0f2fe, #fce7f3, #f5f3ff)"
   },
   "mistForest": {
@@ -36,7 +36,7 @@
     "primary": "#22c55e",
     "background": "#e0fdf4",
     "text": "#022c22",
-    "subtext": "#16a34a",
+    "subtext": "#022c22",
     "gradient": "conic-gradient(from 200deg at 0% 50%, #ecfdf5, #bbf7d0, #86efac, #ccfbf1, #ecfdf5)"
   },
   "arcticSun": {
@@ -52,7 +52,7 @@
     "primary": "#c084fc",
     "background": "#f3e8ff",
     "text": "#4c1d95",
-    "subtext": "#a78bfa",
+    "subtext": "#4c1d95",
     "gradient": "conic-gradient(from 30deg at 50% 0%, #f3e8ff, #ede9fe, #ddd6fe, #f3e8ff)"
   },
   "melonHaze": {
@@ -60,7 +60,7 @@
     "primary": "#fb923c",
     "background": "#fff7ed",
     "text": "#78350f",
-    "subtext": "#ea580c",
+    "subtext": "#78350f",
     "gradient": "conic-gradient(from 60deg at 50% 80%, #fff7ed, #fed7aa, #fdba74, #ffe4e6, #fff7ed)"
   },
   "lunarAsh": {
@@ -68,7 +68,7 @@
     "primary": "#94a3b8",
     "background": "#1e293b",
     "text": "#f1f5f9",
-    "subtext": "#e2e8f0",
+    "subtext": "#f1f5f9",
     "gradient": "conic-gradient(from 180deg at 50% 50%, #0f172a, #1e293b, #334155, #64748b, #0f172a)"
   },
   "electricBloom": {
@@ -84,7 +84,7 @@
   "primary": "#b91c1c",
   "background": "#fef3c7",
   "text": "#3b0a0a",
-  "subtext": "#9a3412",
+  "subtext": "#3b0a0a",
   "gradient": "conic-gradient(from 135deg at 50% 50%, #fef3c7, #fde68a, #fcd34d, #fecaca, #fef3c7)"
 },
 "neonAcidDark": {
@@ -92,7 +92,7 @@
   "primary": "#a3e635",
   "background": "#0f172a",
   "text": "#d9f99d",
-  "subtext": "#bef264",
+  "subtext": "#d9f99d",
   "gradient": "conic-gradient(from 280deg at 50% 50%, #0f172a, #1e293b, #1e40af, #0f172a)"
 }
 }
